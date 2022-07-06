@@ -6,7 +6,7 @@ import java.time.LocalDate;
  * @author khandaker.maruf
  * @since 7/6/22
  */
-public class Pet {
+public class Pet extends BaseEntity {
 
     private String name;
     private LocalDate birthDate;
